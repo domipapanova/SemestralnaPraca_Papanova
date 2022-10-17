@@ -46,7 +46,7 @@ ul{
 
 .navbar-nav-items a {
     padding-top: 15px;
-    padding-left: 10px;
+    /*padding-left: 10px;*/
     color: darkseagreen;
     text-transform: uppercase;
     line-height: 30px;
@@ -116,7 +116,7 @@ blockquote:before {
     content: open-quote;
     font-size: 4em;
     line-height: 0.1em;
-    margin-right: 0.25em;
+    /*margin-right: 0.25em;*/
     vertical-align: -0.4em;
     margin: 0;
 }
@@ -128,9 +128,6 @@ blockquote:before {
     margin-top: 30%;
 }
 
-#section-contact .content {
-}
-
 #section-contact p {
     font-size: 18px;
     text-transform: uppercase;
@@ -139,21 +136,12 @@ blockquote:before {
     padding-top: 5%;
 }
 
-#section-contact .personal {
-}
-
 #section-contact .personal li {
     letter-spacing: 2px;
 }
 
-#section-contact .personal li:first-child {
-}
-
 .personal a {
     color: #fff;
-}
-
-.personal {
 }
 
 .social {
@@ -183,7 +171,6 @@ blockquote:before {
     text-align: center;
     border-radius: 50%;
     margin: 5px;
-
 }
 
 .social-icon:hover {
@@ -203,9 +190,7 @@ blockquote:before {
 
 .personal-info{
     padding-left: 25%;
-
 }
-
 
 footer {
     font-size: 14px;
@@ -238,7 +223,6 @@ footer .menu {
 
 footer .menu a {
     color: #989898;
-
 }
 
 footer .menu a:hover,
@@ -256,13 +240,11 @@ footer li:last-child:after{
     content: none;
 }
 
-
 @media  screen and (max-width: 576px){
     html{
         min-width: 300px;
     }
-
-    .content{
+    .content {
         margin: 0;
     }
 
@@ -273,7 +255,6 @@ footer li:last-child:after{
         height: 50px;
         position: relative;
     }
-
 
     #top #navbar{
         position: fixed;
@@ -297,12 +278,9 @@ footer li:last-child:after{
         line-height: 30px;
     }
 
-
     #top a:hover {
         color: grey;
     }
-
-
 
     #myLinks{
         display: none;
@@ -317,7 +295,6 @@ footer li:last-child:after{
         display: block;
     }
 
-
     #top a.Icon {
         display: block; /* zjavi sa hamburger meni sa z none*/
         position: absolute;
@@ -330,8 +307,6 @@ footer li:last-child:after{
         font-size: 50px;
     }
 
-
-
     #top a:hover {
         background-color: #ddd;
         color: black;
@@ -340,9 +315,6 @@ footer li:last-child:after{
     .active {
         width: 90%;
     }
-
-
-
 
     .quote{
         margin-top: 250px;
@@ -368,7 +340,11 @@ footer li:last-child:after{
     }
 
     .personal-info{
-        padding-left: 0%;
+        padding-left: 0;
+    }
+
+    #section-contact{
+        margin-top: 50%;
     }
 
     #section-contact .menu {
@@ -380,10 +356,8 @@ footer li:last-child:after{
         text-align: center;
     }
 
-
     .social{
         padding-bottom: 5%;
-
         margin-left: 36%;
     }
 
@@ -411,9 +385,7 @@ footer li:last-child:after{
         margin-top: 100px;
         margin-right: 25px;
     }
-
 }
-
 @media  screen and (max-width: 1388px) and (min-width: 577px){
     #blog img {
         border-radius: 40%;
@@ -429,13 +401,3 @@ footer li:last-child:after{
         margin-right: auto;
     }
 }
-
-
-
-
-
-
-
-
-
-

@@ -1,7 +1,6 @@
 #blog{
     background-color: darkseagreen;
     color: white;
-    /*margin-top: 30%;*/
     margin-top: -8%;
 }
 
@@ -13,8 +12,7 @@
 
 #blog .clanok{
     display: flex;
-    flex-wrap: wrap;
-
+    flex-wrap: wrap; /*ulozenie text obrazok*/
 }
 
 #blog .text{
@@ -34,7 +32,6 @@
 #blog img{
     border-radius: 40%;
     width: 50%;
-
 }
 
 .text a{
@@ -45,7 +42,6 @@ h1:hover {
     color: mediumseagreen;
 }
 
-
 .text a:hover{
     color: salmon;
     font-size: larger;
@@ -55,9 +51,6 @@ h1:hover {
     margin-bottom: 10%;
 }
 
-#section-about .text{
-
-}
 
 #section-about h1{
     text-align: center;
@@ -81,15 +74,8 @@ h1:hover {
     text-align: justify;
     padding-top: 2%;
     font-size: 2em;
-    margin-top: 0%;
+    margin-top: 0;
 }
-
-#section-about .clanok{
-
-}
-
-
-
 
 #section-foundres h1{
     font-size: 4em;
@@ -98,17 +84,9 @@ h1:hover {
 #section-foundres{
     background-color: darksalmon;
     text-align: center;
-
     padding-top: 2%;
     margin-top: 2%;
     padding-bottom: 5%;
-}
-
-
-
-#section-foundres .content{
-
-
 }
 
 #section-foundres .text{
@@ -126,14 +104,11 @@ h1:hover {
     display: block;
     width: 100%;
     height: auto;
-
-
     backface-visibility: hidden;
 }
 
 #section-foundres .position-text {
     opacity: 0;
-
     text-align: center;
 }
 
@@ -153,449 +128,5 @@ h1:hover {
 }
 
 #section-foundres h1 {
-
     color: white;
 }
-
-
-
-/*#section-contact{
-    background: #000;
-    color: #fff;
-}
-
-#section-contact .content {
-
-
-}
-
-#section-contact p {
-    font-size: 18px;
-    text-transform: uppercase;
-    line-height: 36px;
-    text-align: center;
-    padding-top: 5%;
-}
-
-#section-contact .personal {
-
-}
-
-
-
-#section-contact .personal li {
-
-    letter-spacing: 2px;
-
-}
-
-#section-contact .personal li:first-child {
-
-}
-
-.personal a {
-    color: #fff;
-
-}
-
-.personal {
-
-}
-
-.social {
-    padding-bottom: 5%;
-    margin-left: 5%;
-}
-
-.personal li {
-    margin-right: 70px;
-}
-
-.personal .fa {
-    font-size: 28px;
-    margin-right: 5px;
-}
-.social .fa {
-    font-size: 17px;
-}
-
-.social-icon {
-    display: block;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    color: #000;
-    background: #eeefed;
-    text-align: center;
-    border-radius: 50%;
-    margin: 5px;
-
-}
-
-.social-icon:hover {
-    color: #000;
-    background: #EBE22C;
-}
-
-.personal a:hover,
-.personal a:focus{
-    color: #EBE22C;
-}
-
-#section-contact .menu{
-    display: flex;
-    padding-top: 5%;
-}
-
-.personal-info{
-    padding-left: 25%;
-
-}
-
-
-footer {
-    font-size: 14px;
-}
-
-footer .content {
-    background: url("bman.png")left center no-repeat;
-    height: 180px;
-}
-
-footer p {
-    color: #a6a6a6;
-    float: left;
-    padding-left: 46%;
-}
-
-footer p a {
-    color: #e75652;
-    font-weight: 500;
-}
-
-footer p,
-footer .menu {
-    margin: 32px 0 32px 0;
-}
-
-footer .menu {
-    font-weight: 500;
-    text-transform: uppercase;
-    float: right;
-    display: flex;
-    margin-top: 100px;
-    margin-right: 40px;
-}
-
-footer .menu a {
-    color: #989898;
-
-}
-
-footer .menu a:hover,
-footer .menu a:focus {
-    text-decoration: underline;
-}
-
-footer li:after {
-    content: '/';
-    color: #989898;
-    margin: 0 8px;
-}
-
-footer li:last-child:after{
-    content: none;
-}
-*/
-
-/*scroll hamburger*/
-/*#top a.icon {
-    display: none;
-}
-
-html{
-    scroll-behavior: smooth;
-    min-width: 1000px;
-}
-body {
-    font-family: 'Titillium Web', sans-serif;
-    color: darkseagreen;
-    background: white;
-    margin: 0 auto; /*margin navbar zhora*/
-  /*  max-width: 100%;
-}
-
-.content{
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#top{
-    overflow: hidden;
-    top: 0;
-    width: 100%;
-    height: 60px;
-    position: relative;
-}
-
-a {
-    text-decoration: none; /* spodna ciarka linku*/
-/*}
-
-ul{
-    list-style-type: none ; /* bez prvkov zoznamu*/
-/*}
-
-#top #navbar{
-    position: fixed; /*aj pri scrollovani ostava na mieste*/
-    /*width: 100%;
-    background: darkseagreen;
-    display: flex;
-    z-index: 1;
-}
-
-.container  {
-    margin: 0 auto;
-}
-
-
-
-.navbar-nav-items a {
-    padding-top: 15px;
-    padding-left: 10px;
-    color: darkseagreen;
-    text-transform: uppercase;
-    line-height: 30px;
-    text-decoration: none;
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
-
-#top a:hover {
-    color: mediumseagreen;
-}
-
-#myLinks{
-    display: flex;
-    margin-left: 22%;
-}
-
-#top a {
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
-    display: flex;
-}
-
-
-/*kvietok*/
-/*.plant img{
-    height: 50px;
-    padding-left: 1%;
-}
-
-.plant{
-    width: 10%;
-
-}
-
-
-
-@media  screen and (max-width: 576px){
-
-    html{
-        min-width: 300px;
-    }
-
-    .content{
-        margin: 0;
-    }
-
-
-
-    #top{
-
-        overflow: hidden;
-
-        top: 0;
-        width: 100%;
-        height: 50px;
-        position: relative;
-    }
-
-
-    #top #navbar{
-        position: fixed;
-        width: 100%;
-        display: block;
-    }
-
-    .myLinks{
-        display: none;
-    }
-
-    .myLinks a {
-        display: block;
-        padding-top: 15px;
-        padding-left: 10px;
-        text-decoration: none;
-        color: #000;
-        background: #323232;
-        text-align: center;
-        text-transform: uppercase;
-        line-height: 30px;
-    }
-
-
-    #top a:hover {
-        color: grey;
-    }
-
-    #blog{
-
-        color: white;
-        /*margin-top: 30%;*/
-  /*      margin-top: -13%;
-    }
-
-
-
-    #myLinks{
-        display: none;
-        background: #989898;
-        margin: 0;
-    }
-
-    #top a {
-        color: white;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-    }
-
-
-    #top a.icon {
-
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-        height: 50px;
-    }
-
-    #top .fa{
-        font-size: 50px;
-    }
-
-
-
-    #top a:hover {
-        background-color: #ddd;
-        color: black;
-    }
-
-    .active {
-        width: 90%;
-    }
-
-
-
-    .quote{
-        margin-top: 250px;
-        font-size: 0.5em;
-    }
-
-    #blog img{
-        margin-left: 30%;
-    }
-
-    #section-about h1{
-        font-size: 4em;
-    }
-    #section-about h2{
-        font-size: 3em;
-    }
-    #section-about h3{
-        font-size: 1em;
-    }
-
-    #section-about p{
-        font-size: 1em;
-    }
-
-    .personal-info{
-        padding-left: 0%;
-    }
-
-    #section-contact .menu {
-        display: block;
-        padding-top: 5%;
-    }
-
-    .personal{
-        text-align: center;
-    }
-
-
-    .social{
-        padding-bottom: 5%;
-
-        margin-left: 36%;
-    }
-
-    #section-contact .personal li {
-        letter-spacing: 1px;
-    }
-
-    .personal li{
-        margin-right: 10px;
-    }
-
-    .personal .fa {
-        font-size: 15px;
-    }
-
-    footer p {
-        color: #a6a6a6;
-        float: left;
-        padding-left: 63%;
-    }
-
-    footer .menu {
-        float: right;
-        display: flex;
-        margin-top: 100px;
-        margin-right: 25px;
-    }
-
-}
-
-@media  screen and (max-width: 1388px) and (min-width: 577px){
-    #blog img {
-        border-radius: 40%;
-        width: 50%;
-        margin-left: 100%;
-    }
-
-}
-
-@media screen and (min-width: 1575px) {
-    .container{
-        width: 1575px;
-        margin-left:auto;
-        margin-right: auto;
-    }
-
-}
-
-
-
-
-
-
-
-
-
-
-
