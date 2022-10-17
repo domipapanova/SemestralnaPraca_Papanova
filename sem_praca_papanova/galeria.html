@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="galeria_style.css">
+    <link rel="stylesheet" type="text/css" href="domov_style.css">
+
+    <!-- LINK NA FONT-->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <!-- LINK NA IKONY -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <title>PlantPlace</title>
+</head>
+
+<body onresize="screen_resize()">
+<section id="top">
+    <nav id="navbar">
+        <a href="domov.html" class="Plant">
+            <img src="./img/plant_head.png" alt="icon">
+        </a>
+        <div id="myLinks" class="navbar-nav-items">
+            <a href="domov.html">Domov</a>
+            <a href="galeria.html">Rastliny</a>
+            <a href="galeria.html">Kvetinace</a>
+            <a href="blog.html">FAQ</a>
+            <a href="#section-contact">Kontakt</a>
+        </div>
+        <!-- scroll do hamburgera-->
+        <a href="javascript:void(0);" class="Icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+</section>
+
+<div class="container">
+    <div class="album py-5 bg-light">
+        <div class="container">
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col position-static">
+                    <div class="card shadow-sm"  >
+                        <img src="img/svokryne.webp" alt="product image">
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+
+                                <small class="text-muted">13.99€</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="img/ficus.webp" alt="product image">
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+
+                                <small class="text-muted">10.29€</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="img/voskovka.webp" alt="product image">
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+
+                                <small class="text-muted">15.99€</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="img/adsondii.webp" alt="product image">
+
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+
+                                <small class="text-muted">32.59€</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="img/calathea.webp" alt="product image">
+
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+
+                                <small class="text-muted">13.29€</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="img/alocasia.webp" alt="product image">
+
+
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+
+                                <small class="text-muted">13.99€</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="img/begonia.webp" alt="product image">
+
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+
+                                <small class="text-muted">9.99€</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="img/palma.webp" alt="product image">
+
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+
+                                <small class="text-muted">12.99€</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="img/ornata.webp" alt="product image">
+
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+
+                                <small class="text-muted">20.99€</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<section id="section-contact" >
+    <div class="content">
+        <p>
+            Contact us:
+        </p>
+
+        <div class="personal-info">
+            <ul class="menu personal">
+                <li><i class="fa fa-mobile-phone"></i><a href="tel:0944673050">0944 673 050</a></li>
+                <li><i class="fa fa fa-envelope"></i><a href="mailto:anonym@gmail.com">plantplace@gmail.com</a></li>
+            </ul>
+
+            <ul class="menu social">
+                <li><a href="https://www.skype.com/en/"  class="social-icon" target="_blank"><i class="fa fa-skype" ></i></a></li>
+                <li><a href="https://www.facebook.com/batman/" class="social-icon"  target="_blank"><i class="fa fa-facebook-f"></i></a></li>
+                <li><a href="https://twitter.com/batman"  class="social-icon" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com/"  class="social-icon" target="_blank"><i class="fa fa-youtube"></i></a></li>
+
+                <li><a href="https://www.twitch.tv/batman"  class="social-icon" target="_blank"><i class="fa fa-twitch"></i></a></li>
+                <li><a href="https://www.instagram.com/" class="social-icon" target="_blank" ><i class="fa fa-instagram"></i></a></li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    <div class="content">
+        <p> design by PlantLover</p>
+
+        <ul class="menu nav-footer">
+
+            <li><a href="domov.html">Domov</a></li>
+            <li><a href="galeria.html">Rastlinky</a></li>
+            <li><a href="galeria.html">Kvetinace</a></li>
+            <li><a href="blog.html">FAQ</a></li>
+            <li><a href="#section-contact">Kontakt</a></li>
+
+        </ul>
+
+    </div>
+</footer>
+</div>
+
+<script>
+    function screen_resize() {
+        var w = parseInt(window.innerWidth);
+        var x = document.getElementById("myLinks");
+        if(w > 576) {
+            x.style.display = "flex";
+        }  else {
+            x.style.display = "none";
+        }
+
+    }
+
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
+
+</body>
+</html>

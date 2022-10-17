@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="domov_style.css">
+    <!-- LINK NA FONT-->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <!-- LINK NA IKONY-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>PlantPlace</title>
+</head>
+
+<body onresize="screen_resize()"> <!-- onresize , pre javascript-->
+<div class="container">
+    <section id="top">
+        <nav id="navbar">
+            <a href="domov.html" class="Plant">
+                <img src="./img/plant_head.png" alt="icon">
+            </a>
+            <div id="myLinks" class="navbar-nav-items">
+                <a href="domov.html">Domov</a>
+                <a href="galeria.html">Rastliny</a>
+                <a href="galeria.html">Kvetinace</a>
+                <a href="blog.html">FAQ</a>
+                <a href="#section-contact">Kontakt</a>
+            </div>
+            <!--HAMBURGER , onclick - javascript -->
+            <a href="javascript:void(0);" class="Icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </section>
+
+    <section id="section-home">
+        <div class="content">
+            <header class="post-header">
+                <h1 class="post-title">
+                    PlantPlace
+                </h1>
+            </header>
+            <div class="quote">
+                <blockquote>Široká ponuka rastlín a doplnkov</blockquote>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-contact" >
+        <div class="content">
+            <p>Kontaktuj nás:</p>
+
+            <div class="personal-info">
+                <ul class="menu personal">
+                    <li><i class="fa fa-mobile-phone"></i><a href="tel:0944673050">0944 673 050</a></li>
+                    <li><i class="fa fa fa-envelope"></i><a href="mailto:anonym@gmail.com">plantplace@gmail.com</a></li>
+                </ul>
+                <ul class="menu social">
+                    <li><a href="https://www.skype.com/en/"  class="social-icon" target="_blank"><i class="fa fa-skype" ></i></a></li>
+                    <li><a href="https://www.facebook.com/batman/" class="social-icon"  target="_blank"><i class="fa fa-facebook-f"></i></a></li>
+                    <li><a href="https://twitter.com/batman"  class="social-icon" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.youtube.com/"  class="social-icon" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="https://www.twitch.tv/batman"  class="social-icon" target="_blank"><i class="fa fa-twitch"></i></a></li>
+                    <li><a href="https://www.instagram.com/" class="social-icon" target="_blank" ><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="content">
+            <p> design by PlantLover</p>
+            <ul class="menu nav-footer">
+                <li><a href="domov.html">Domov</a></li>
+                <li><a href="galeria.html">Rastlinky</a></li>
+                <li><a href="galeria.html">Kvetinace</a></li>
+                <li><a href="blog.html">FAQ</a></li>
+                <li><a href="#section-contact">Kontakt</a></li>
+            </ul>
+        </div>
+    </footer>
+</div>
+
+<script>
+    function screen_resize() {
+        var w = parseInt(window.innerWidth);
+        var x = document.getElementById("myLinks");
+        if(w > 576) {
+            x.style.display = "flex"; /* vedla seba linky*/
+        }  else {
+            x.style.display = "none"; /* schovaju sa linky*/
+        }
+
+    }
+    /* block  zjavia sa pod sebou linky*/
+    function myFunction() {
+        var x = document.getElementById("myLinks"); /* ziskam podla id  MyLinks*/
+        if (x.style.display === "block") {  /*schovas ponuku*/
+            x.style.display = "none";
+
+        } else {
+            x.style.display = "block"; /*zobrazit ponuku*/
+        }
+    }
+</script>
+</body>
+</html>

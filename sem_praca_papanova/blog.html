@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="blog_style.css">
+    <link rel="stylesheet" type="text/css" href="domov_style.css">
+
+    <!-- LINK NA FONT-->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <!-- LINK NA IKONY-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>PlantPlace</title>
+</head>
+
+<body onresize="screen_resize()">
+<div class="container">
+    <section id="top">
+        <nav id="navbar">
+            <a href="domov.html" class="Plant">
+                <img src="./img/plant_head.png" alt="icon">
+            </a>
+            <div id="myLinks" class="navbar-nav-items">
+                <a href="domov.html">Domov</a>
+                <a href="galeria.html">Rastliny</a>
+                <a href="galeria.html">Kvetinace</a>
+                <a href="blog.html">FAQ</a>
+                <a href="#section-contact">Kontakt</a>
+            </div>
+            <!-- scroll do hamburgera, nehodnotit-->
+            <a href="javascript:void(0);" class="Icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </section>
+
+    <section id="blog" >
+        <div class="content">
+            <h1>Najnovšie</h1>
+            <div class="clanok">
+                <div class="text">
+                    <h2> <a href="https://zahradkar.pluska.sk/izbove-rastliny/tri-neprijemne-skodce-izbovych-kvetov-co-robit">Škodcovia: ako ich zničiť?</a></h2>
+                    <p>Červce, roztoče či štítničky patria k najbežnejším a najnepríjemnejším škodcom. Dôležitá je preto pravidelná kontrola rastlín a prevencia.</p>
+                </div>
+                <div class="obr">
+                    <p> <img src="img/plant-care.jpg" alt="Generic placeholder image"></p>
+                </div>
+            </div>
+
+            <div class="clanok">
+                <div class="text">
+                    <h2><a href="https://zahradkar.pluska.sk/izbove-rastliny/ocarujuca-paprad-splnte-tychto-5-podmienok-bude-vam-pestovani-da">Paprade: aká je správna starostlivosť ?</a></h2>
+                    <p>Očarujúca papraď! Splňte týchto 5 podmienok a bude sa vám v pestovaní dariť</p>
+                </div>
+                <div class="obr">
+                    <p> <img src="./img/paprad.jpg" alt="Generic placeholder image"></p>
+                </div>
+            </div>
+
+            <div class="clanok">
+                <div class="text">
+                    <h2><a href="https://www.zahrada.sk/magazine/co-robi-spravny-zahradkar-v-zime/">Zima: pripravte svoju záhradu!</a></h2>
+                    <p>Prečítajte si naše rady a triky, ako pripraviť svoju záhradu na náročne zimné obdobie. Všetko sa dozviete v našom članku.</p>
+                </div>
+                <div class="obr">
+                    <p> <img src="img/zima.jpg" alt="Generic placeholder image"></p>
+                </div>
+            </div>
+
+            <div class="clanok">
+                <div class="text">
+                    <h2><a href="https://zahradkar.pluska.sk/okrasna-zahrada/aj-vy-budete-vediet-ako-mat-krasne-ruze-nielen-zahonoch-ale-aj-nadobach-staci-kupit-julovy-casopis-zahradkar">Ruže: poradíme vám čo predĺži ich kvitnutie.</a></h2>
+                    <p>Milujete ruže? Tak si prečítajte naše rady ako ich donútiť kvitnúť čo najdlhšie.</p>
+                </div>
+                <div class="obr">
+                    <p> <img src="img/ruze.jpg" alt="Generic placeholder image"></p>
+                </div>
+            </div>
+
+            <div class="clanok">
+                <div class="text">
+                    <h2><a href="https://zahradkar.pluska.sk/okrasna-zahrada/je-tu-vhodny-cas-vysadzanie-jarnych-cibulovin-dodrzte-tychto-6-zakladnych-pravidie">Pripravte sa na jar už teraz!</a></h2>
+                    <p>Ukážeme vám krok po kroku ako vysádzať jarné cibuľoviny a tak sa pripraviť na jar</p>
+                </div>
+                <div class="obr">
+                    <p> <img src="img/cibuloviny.jpg" alt="Generic placeholder image"></p>
+                </div>
+            </div>
+
+            <div class="clanok">
+                <div class="text">
+                    <h2><a href="https://zahradkar.pluska.sk/balkon-a-terasa/viete-ktore-balkonovky-mozno-zazimovat-tieto-budu-krasne-aj-buducej-sezone">Viete, ktoré BALKÓNOVKY možno ZAZIMOVAŤ? </a></h2>
+                    <p>Síce väčšinu balkónových rastlín je nutné pred zimou zlikvidovať, nájdete medzi nimi aj také, ktoré vás budú svojou krásou tešiť aj budúcu sezónu. Ktoré sú to a ako sa o ne teraz postarať?</p>
+                </div>
+                <div class="obr">
+                    <p> <img src="img/balkon.jpg" alt="Generic placeholder image"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-about" >
+        <div class="content">
+            <div class="clanok">
+                <h1>O nás</h1>
+
+                <div class="text">
+                    <h2>Doprava domov</h2>
+                    <h3>Samozrejme!</h3>
+                    <p> Zasielky posielame pomocou Slovenskej Posty alebo Zasielkovne.</p>
+                </div>
+
+                <div class="text">
+                    <h2>Je vhodne posielat rastliny postou ?</h2>
+                    <h3>Bez obav</h3>
+                    <p> Rastlinky setrne zabalime a pribalime vyhrevne teleso.</p>
+                </div>
+
+                <div class="text">
+                    <h2>Prijmate reklamacie?</h2>
+                    <h3>Bez problemov</h3>
+                    <p>Zasielku mozte reklamovat do 2 tyzdnov</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="section-foundres">
+        <div class="content ">
+            <h1>Zakladatelia našej predajne</h1>
+            <div class="text">
+
+                <div class="box">
+                    <p><img src="img/f1.jpg" alt="Instant Image"></p>
+                    <div class="position-text">
+                        <p class="name">Damián Kukurica</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <p> <img src="img/f3.jpg" alt="Instant Image"></p>
+                    <div class="position-text">
+                        <p class="name">Dominika Papánová</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <p><img src="img/f2.jpg" alt="Instant Image"></p>
+                    <div class="position-text">
+                        <p class="name">Hana Mrkvičková</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-contact" >
+        <div class="content">
+            <p>Contact us:</p>
+            <div class="personal-info">
+
+                <ul class="menu personal">
+                    <li><i class="fa fa-mobile-phone"></i><a href="tel:0944673050">0944 673 050</a></li>
+                    <li><i class="fa fa fa-envelope"></i><a href="mailto:anonym@gmail.com">plantplace@gmail.com</a></li>
+                </ul>
+
+                <ul class="menu social">
+                    <li><a href="https://www.skype.com/en/"  class="social-icon" target="_blank"><i class="fa fa-skype" ></i></a></li>
+                    <li><a href="https://www.facebook.com/" class="social-icon"  target="_blank"><i class="fa fa-facebook-f"></i></a></li>
+                    <li><a href="https://twitter.com/"  class="social-icon" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.youtube.com/"  class="social-icon" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="https://www.twitch.tv/"  class="social-icon" target="_blank"><i class="fa fa-twitch"></i></a></li>
+                    <li><a href="https://www.instagram.com/" class="social-icon" target="_blank" ><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="content">
+            <p> design by PlantLover</p>
+            <ul class="menu nav-footer">
+                <li><a href="domov.html">Domov</a></li>
+                <li><a href="galeria.html">Rastlinky</a></li>
+                <li><a href="galeria.html">Kvetinace</a></li>
+                <li><a href="blog.html">FAQ</a></li>
+                <li><a href="#section-contact">Kontakt</a></li>
+            </ul>
+        </div>
+    </footer>
+</div>
+
+<script>
+    function screen_resize() {
+        var w = parseInt(window.innerWidth);
+        var x = document.getElementById("myLinks");
+        if(w > 576) {
+            x.style.display = "flex";
+        }  else {
+            x.style.display = "none";
+        }
+
+    }
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
+
+</body>
+</html>
